@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TVInterface.sol": "TvInterface"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TVInterface.sol": {
+			"keccak256": "0x0cc4d4ae9ba6ca48a336a51118c3ec73842787760944597844ec48758e78375c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6c4d7e59bdccca405e4e1abe916287de346eb18ed8e4cec542e6c17761fea55d",
+				"dweb:/ipfs/QmPgS1hTT3rm9b8GocFCUJTzuHs2D222BiGSwU8n6638Xo"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "add",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "cal",
+				"outputs": [
+					{
+						"internalType": "contract ICalculator",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "firstNum",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "secondNum",
+						"type": "uint256"
+					}
+				],
+				"name": "getMul",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "firstNum",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "secondNum",
+						"type": "uint256"
+					}
+				],
+				"name": "getSum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"interface/Calculator.sol": "Calculator"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"interface/Calculator.sol": {
+			"keccak256": "0xcc538688877f2d17aaf73dafb8d519b652d7a1f877834e362e9313d690ad5e8f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://00797f55685ba6001325c59bf6fd42ce5b409c42ec582c138bc4bf9b9084449e",
+				"dweb:/ipfs/QmPmM4REYioaqWY4w6UuLhE99h928QrQR238esSrFJ5Fzu"
+			]
+		}
+	},
+	"version": 1
+}

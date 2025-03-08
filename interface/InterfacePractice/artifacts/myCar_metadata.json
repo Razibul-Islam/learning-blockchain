@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"interface/InterfacePractice/Interface.sol": "myCar"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"interface/InterfacePractice/Interface.sol": {
+			"keccak256": "0xdc4e4cd509f79fcaff066eac29e253d12f399ff927be4735311c1381d38476bc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0bc4f96073c048fbee108d5bbe0d08b89646bc9618f8c0d49cac1243e5eda166",
+				"dweb:/ipfs/QmUJXCTcqCuybVWrhJXQhZGsqb7MmGKYTP8r1ARfsuxFKs"
+			]
+		}
+	},
+	"version": 1
+}

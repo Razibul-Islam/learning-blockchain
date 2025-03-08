@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bkash/bkash.sol": "IB"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bkash/bkash.sol": {
+			"keccak256": "0xd55ec456c3501abec1383463ce3adbe54ba62fcdd58c49d16354976030ccc441",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5c922ef675b4b8407077776b0272be3ce6951e482c0a1bb9f1e1994dc0ded0d9",
+				"dweb:/ipfs/QmTdM6wiF4fCfeTEKDUsuZmmLq4bsewdZFZdefLUa7pZ45"
+			]
+		}
+	},
+	"version": 1
+}

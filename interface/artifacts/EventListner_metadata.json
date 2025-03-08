@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"interface/TokenWithEvents.sol": "EventListner"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"interface/TokenWithEvents.sol": {
+			"keccak256": "0xfd24617e3375fabdd24bac2cd2e7fa574102663c20d227504ea03ba03516e179",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3c863cf16abc9c05aebfc1a378508daf5f18e21038a60d484b6b28cdecca2ff0",
+				"dweb:/ipfs/QmY14zF5nzq74LwdjVYFUiSd7tdCxGoUKxv6CiZuBMmrHr"
+			]
+		}
+	},
+	"version": 1
+}
