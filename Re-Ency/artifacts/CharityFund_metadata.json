@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "donate",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "donations",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdrawDonation",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Re-Ency/Vulnerable.sol": "CharityFund"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Re-Ency/Vulnerable.sol": {
+			"keccak256": "0xadcbfab293bdb1635b611bd744ddb94929f07e29d48bec83095242dc7e957b7d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ccdab5f47e43033d900e3385937a5c36fce4d8229fe3026aed1a585d1d48107d",
+				"dweb:/ipfs/QmNPXmTxMebiLq593e6vbeAf6vQgFN1xuskdCyFGN1BR4E"
+			]
+		}
+	},
+	"version": 1
+}

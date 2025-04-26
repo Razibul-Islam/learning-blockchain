@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "restrict",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "code",
+						"type": "uint8"
+					}
+				],
+				"name": "updateStatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NewLearning/enum.sol": "EnumModifire"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NewLearning/enum.sol": {
+			"keccak256": "0xe810afbbbdc9957939d9325deda52e3e00037a3f162048fdd96303dc611afd33",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cd80de273daff3d2950b23b123d0b2f4a37cfdcd098202cdbc3c5d018c285450",
+				"dweb:/ipfs/Qmago8DHcNnbHnXMXmBQzrasQNuX7AkhyCNM8qqsKg38Ze"
+			]
+		}
+	},
+	"version": 1
+}

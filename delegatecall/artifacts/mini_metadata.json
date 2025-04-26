@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "target",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"name": "register",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"delegatecall/Mini.sol": "mini"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"delegatecall/Mini.sol": {
+			"keccak256": "0xaf05780375041d58346c3c60b7eeeafc53a8de361f8a06fc37901173fa910b3b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4b3f9798bc6bea027250a8ec96372c686efead6b8c25c34b7c49062936366c0b",
+				"dweb:/ipfs/QmVCrfbpLFuHcwUWJj4U8koP9pPvMtJQXsikecfGg44Mtv"
+			]
+		}
+	},
+	"version": 1
+}

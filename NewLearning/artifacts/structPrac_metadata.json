@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "grade",
+						"type": "uint256"
+					}
+				],
+				"name": "addStudent",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NewLearning/StructPrac.sol": "structPrac"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NewLearning/StructPrac.sol": {
+			"keccak256": "0x150a0c0f2fb78a5f1e49d245e79016e42260c779ae735f53973d051d3228ec29",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0fe89d86364ea1b94ffcabe33d87ab42dc331f7d01261e8d3a1f4d59453225a3",
+				"dweb:/ipfs/QmT62ysLWymkcPL2pK2u7BiJT7ZNjqiBAN4i1cw6VPykf7"
+			]
+		}
+	},
+	"version": 1
+}

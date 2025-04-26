@@ -1,0 +1,135 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "fileHash",
+						"type": "string"
+					}
+				],
+				"name": "fileDeleted",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "fileHash",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					}
+				],
+				"name": "fileUploaded",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "fileHash",
+						"type": "string"
+					}
+				],
+				"name": "deleteFile",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "fileHash",
+						"type": "string"
+					}
+				],
+				"name": "fileUpload",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "getActiveFile",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CompressedHistoryLedger/CompressedHistoryLedger.sol": "CompressedHistoryLedger"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CompressedHistoryLedger/CompressedHistoryLedger.sol": {
+			"keccak256": "0xc7876a5eb096d9799799d78995a7621e6018d79f03d1bc52ab32c358fc24a03c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://87ca03fd124c627ba06cec62c27d28c6ab56093e6257537a36417b92e3a9df43",
+				"dweb:/ipfs/QmY8bwnbGfL9MK4KRG4tz6H4Gj4xRmKzZDYbHtNNw47ZPS"
+			]
+		}
+	},
+	"version": 1
+}

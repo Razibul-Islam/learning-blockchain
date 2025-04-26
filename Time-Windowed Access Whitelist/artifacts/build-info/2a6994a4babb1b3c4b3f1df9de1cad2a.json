@@ -1,0 +1,566 @@
+{
+	"id": "2a6994a4babb1b3c4b3f1df9de1cad2a",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.29",
+	"solcLongVersion": "0.8.29+commit.ab55807c",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"Time-Windowed Access Whitelist/TimeWindowedAccessWhitelist.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.28;\r\n\r\ncontract TimeWindowedAccessWhitelist{\r\n    struct TimeWindow{\r\n        uint256 strat;\r\n        uint256 end;\r\n        bool isActive;\r\n    }\r\n\r\n    mapping (address => TimeWindow[]) private whiteLishWindow;\r\n    \r\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"contracts": {
+			"Time-Windowed Access Whitelist/TimeWindowedAccessWhitelist.sol": {
+				"TimeWindowedAccessWhitelist": {
+					"abi": [],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"Time-Windowed Access Whitelist/TimeWindowedAccessWhitelist.sol\":61:274  contract TimeWindowedAccessWhitelist{... */\n  mstore(0x40, 0x80)\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  revert(0x00, 0x00)\ntag_1:\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"Time-Windowed Access Whitelist/TimeWindowedAccessWhitelist.sol\":61:274  contract TimeWindowedAccessWhitelist{... */\n      mstore(0x40, 0x80)\n      revert(0x00, 0x00)\n\n    auxdata: 0xa26469706673582212202f61d4092780cbe883b5ba0cf1fdf9986fb284a4a5950366e65ee3a0fbefd19264736f6c634300081d0033\n}\n",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600e575f5ffd5b50603e80601a5f395ff3fe60806040525f5ffdfea26469706673582212202f61d4092780cbe883b5ba0cf1fdf9986fb284a4a5950366e65ee3a0fbefd19264736f6c634300081d0033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH1 0x1A PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 PUSH0 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x2F PUSH2 0xD409 0x27 DUP1 0xCB 0xE8 DUP4 0xB5 0xBA 0xC CALL REVERT EXTDELEGATECALL SWAP9 PUSH16 0xB284A4A5950366E65EE3A0FBEFD19264 PUSH20 0x6F6C634300081D00330000000000000000000000 ",
+							"sourceMap": "61:213:0:-:0;;;;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "60806040525f5ffdfea26469706673582212202f61d4092780cbe883b5ba0cf1fdf9986fb284a4a5950366e65ee3a0fbefd19264736f6c634300081d0033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 PUSH0 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x2F PUSH2 0xD409 0x27 DUP1 0xCB 0xE8 DUP4 0xB5 0xBA 0xC CALL REVERT EXTDELEGATECALL SWAP9 PUSH16 0xB284A4A5950366E65EE3A0FBEFD19264 PUSH20 0x6F6C634300081D00330000000000000000000000 ",
+							"sourceMap": "61:213:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12400",
+								"executionCost": "64",
+								"totalCost": "12464"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 61,
+									"end": 274,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a26469706673582212202f61d4092780cbe883b5ba0cf1fdf9986fb284a4a5950366e65ee3a0fbefd19264736f6c634300081d0033",
+									".code": [
+										{
+											"begin": 61,
+											"end": 274,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 61,
+											"end": 274,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 61,
+											"end": 274,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 61,
+											"end": 274,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 61,
+											"end": 274,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 61,
+											"end": 274,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							},
+							"sourceList": [
+								"Time-Windowed Access Whitelist/TimeWindowedAccessWhitelist.sol",
+								"#utility.yul"
+							]
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.29+commit.ab55807c\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"Time-Windowed Access Whitelist/TimeWindowedAccessWhitelist.sol\":\"TimeWindowedAccessWhitelist\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"Time-Windowed Access Whitelist/TimeWindowedAccessWhitelist.sol\":{\"keccak256\":\"0x90c9a58b4e38a279ad3b770b36c8bdad4ccec291d7460e1c140af7b15a9e7fe8\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e449ce051e205e4776f635dd296f4fec228fadf6de13dda38b8843e4b32c6c5e\",\"dweb:/ipfs/QmTM8wn2L2SzSbpYX7R5R1zBpABQiaDiM2RMW2CsNwKnKw\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [
+							{
+								"astId": 14,
+								"contract": "Time-Windowed Access Whitelist/TimeWindowedAccessWhitelist.sol:TimeWindowedAccessWhitelist",
+								"label": "whiteLishWindow",
+								"offset": 0,
+								"slot": "0",
+								"type": "t_mapping(t_address,t_array(t_struct(TimeWindow)8_storage)dyn_storage)"
+							}
+						],
+						"types": {
+							"t_address": {
+								"encoding": "inplace",
+								"label": "address",
+								"numberOfBytes": "20"
+							},
+							"t_array(t_struct(TimeWindow)8_storage)dyn_storage": {
+								"base": "t_struct(TimeWindow)8_storage",
+								"encoding": "dynamic_array",
+								"label": "struct TimeWindowedAccessWhitelist.TimeWindow[]",
+								"numberOfBytes": "32"
+							},
+							"t_bool": {
+								"encoding": "inplace",
+								"label": "bool",
+								"numberOfBytes": "1"
+							},
+							"t_mapping(t_address,t_array(t_struct(TimeWindow)8_storage)dyn_storage)": {
+								"encoding": "mapping",
+								"key": "t_address",
+								"label": "mapping(address => struct TimeWindowedAccessWhitelist.TimeWindow[])",
+								"numberOfBytes": "32",
+								"value": "t_array(t_struct(TimeWindow)8_storage)dyn_storage"
+							},
+							"t_struct(TimeWindow)8_storage": {
+								"encoding": "inplace",
+								"label": "struct TimeWindowedAccessWhitelist.TimeWindow",
+								"members": [
+									{
+										"astId": 3,
+										"contract": "Time-Windowed Access Whitelist/TimeWindowedAccessWhitelist.sol:TimeWindowedAccessWhitelist",
+										"label": "strat",
+										"offset": 0,
+										"slot": "0",
+										"type": "t_uint256"
+									},
+									{
+										"astId": 5,
+										"contract": "Time-Windowed Access Whitelist/TimeWindowedAccessWhitelist.sol:TimeWindowedAccessWhitelist",
+										"label": "end",
+										"offset": 0,
+										"slot": "1",
+										"type": "t_uint256"
+									},
+									{
+										"astId": 7,
+										"contract": "Time-Windowed Access Whitelist/TimeWindowedAccessWhitelist.sol:TimeWindowedAccessWhitelist",
+										"label": "isActive",
+										"offset": 0,
+										"slot": "2",
+										"type": "t_bool"
+									}
+								],
+								"numberOfBytes": "96"
+							},
+							"t_uint256": {
+								"encoding": "inplace",
+								"label": "uint256",
+								"numberOfBytes": "32"
+							}
+						}
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"Time-Windowed Access Whitelist/TimeWindowedAccessWhitelist.sol": {
+				"ast": {
+					"absolutePath": "Time-Windowed Access Whitelist/TimeWindowedAccessWhitelist.sol",
+					"exportedSymbols": {
+						"TimeWindowedAccessWhitelist": [
+							15
+						]
+					},
+					"id": 16,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".28"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "33:24:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"canonicalName": "TimeWindowedAccessWhitelist",
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 15,
+							"linearizedBaseContracts": [
+								15
+							],
+							"name": "TimeWindowedAccessWhitelist",
+							"nameLocation": "70:27:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [
+								{
+									"canonicalName": "TimeWindowedAccessWhitelist.TimeWindow",
+									"id": 8,
+									"members": [
+										{
+											"constant": false,
+											"id": 3,
+											"mutability": "mutable",
+											"name": "strat",
+											"nameLocation": "140:5:0",
+											"nodeType": "VariableDeclaration",
+											"scope": 8,
+											"src": "132:13:0",
+											"stateVariable": false,
+											"storageLocation": "default",
+											"typeDescriptions": {
+												"typeIdentifier": "t_uint256",
+												"typeString": "uint256"
+											},
+											"typeName": {
+												"id": 2,
+												"name": "uint256",
+												"nodeType": "ElementaryTypeName",
+												"src": "132:7:0",
+												"typeDescriptions": {
+													"typeIdentifier": "t_uint256",
+													"typeString": "uint256"
+												}
+											},
+											"visibility": "internal"
+										},
+										{
+											"constant": false,
+											"id": 5,
+											"mutability": "mutable",
+											"name": "end",
+											"nameLocation": "164:3:0",
+											"nodeType": "VariableDeclaration",
+											"scope": 8,
+											"src": "156:11:0",
+											"stateVariable": false,
+											"storageLocation": "default",
+											"typeDescriptions": {
+												"typeIdentifier": "t_uint256",
+												"typeString": "uint256"
+											},
+											"typeName": {
+												"id": 4,
+												"name": "uint256",
+												"nodeType": "ElementaryTypeName",
+												"src": "156:7:0",
+												"typeDescriptions": {
+													"typeIdentifier": "t_uint256",
+													"typeString": "uint256"
+												}
+											},
+											"visibility": "internal"
+										},
+										{
+											"constant": false,
+											"id": 7,
+											"mutability": "mutable",
+											"name": "isActive",
+											"nameLocation": "183:8:0",
+											"nodeType": "VariableDeclaration",
+											"scope": 8,
+											"src": "178:13:0",
+											"stateVariable": false,
+											"storageLocation": "default",
+											"typeDescriptions": {
+												"typeIdentifier": "t_bool",
+												"typeString": "bool"
+											},
+											"typeName": {
+												"id": 6,
+												"name": "bool",
+												"nodeType": "ElementaryTypeName",
+												"src": "178:4:0",
+												"typeDescriptions": {
+													"typeIdentifier": "t_bool",
+													"typeString": "bool"
+												}
+											},
+											"visibility": "internal"
+										}
+									],
+									"name": "TimeWindow",
+									"nameLocation": "111:10:0",
+									"nodeType": "StructDefinition",
+									"scope": 15,
+									"src": "104:95:0",
+									"visibility": "public"
+								},
+								{
+									"constant": false,
+									"id": 14,
+									"mutability": "mutable",
+									"name": "whiteLishWindow",
+									"nameLocation": "249:15:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 15,
+									"src": "207:57:0",
+									"stateVariable": true,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_TimeWindow_$8_storage_$dyn_storage_$",
+										"typeString": "mapping(address => struct TimeWindowedAccessWhitelist.TimeWindow[])"
+									},
+									"typeName": {
+										"id": 13,
+										"keyName": "",
+										"keyNameLocation": "-1:-1:-1",
+										"keyType": {
+											"id": 9,
+											"name": "address",
+											"nodeType": "ElementaryTypeName",
+											"src": "216:7:0",
+											"typeDescriptions": {
+												"typeIdentifier": "t_address",
+												"typeString": "address"
+											}
+										},
+										"nodeType": "Mapping",
+										"src": "207:33:0",
+										"typeDescriptions": {
+											"typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_TimeWindow_$8_storage_$dyn_storage_$",
+											"typeString": "mapping(address => struct TimeWindowedAccessWhitelist.TimeWindow[])"
+										},
+										"valueName": "",
+										"valueNameLocation": "-1:-1:-1",
+										"valueType": {
+											"baseType": {
+												"id": 11,
+												"nodeType": "UserDefinedTypeName",
+												"pathNode": {
+													"id": 10,
+													"name": "TimeWindow",
+													"nameLocations": [
+														"227:10:0"
+													],
+													"nodeType": "IdentifierPath",
+													"referencedDeclaration": 8,
+													"src": "227:10:0"
+												},
+												"referencedDeclaration": 8,
+												"src": "227:10:0",
+												"typeDescriptions": {
+													"typeIdentifier": "t_struct$_TimeWindow_$8_storage_ptr",
+													"typeString": "struct TimeWindowedAccessWhitelist.TimeWindow"
+												}
+											},
+											"id": 12,
+											"nodeType": "ArrayTypeName",
+											"src": "227:12:0",
+											"typeDescriptions": {
+												"typeIdentifier": "t_array$_t_struct$_TimeWindow_$8_storage_$dyn_storage_ptr",
+												"typeString": "struct TimeWindowedAccessWhitelist.TimeWindow[]"
+											}
+										}
+									},
+									"visibility": "private"
+								}
+							],
+							"scope": 16,
+							"src": "61:213:0",
+							"usedErrors": [],
+							"usedEvents": []
+						}
+					],
+					"src": "33:241:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

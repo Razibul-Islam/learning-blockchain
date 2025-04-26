@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Time-Windowed Access Whitelist/TimeWindowedAccessWhitelist.sol": "TimeWindowedAccessWhitelist"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Time-Windowed Access Whitelist/TimeWindowedAccessWhitelist.sol": {
+			"keccak256": "0x90c9a58b4e38a279ad3b770b36c8bdad4ccec291d7460e1c140af7b15a9e7fe8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e449ce051e205e4776f635dd296f4fec228fadf6de13dda38b8843e4b32c6c5e",
+				"dweb:/ipfs/QmTM8wn2L2SzSbpYX7R5R1zBpABQiaDiM2RMW2CsNwKnKw"
+			]
+		}
+	},
+	"version": 1
+}
